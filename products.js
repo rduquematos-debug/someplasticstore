@@ -7,9 +7,9 @@ const products = [
         "qtyPallet": "840 (Amer. 120x100cm)",
         "dimensions": "Comp. 51cm x Lar. 31cm x Alt. 8cm",
         "capacity": "7L",
-        "image": "/src/assets/products/prod_300303.jpg",
+        "image": "./src/assets/products/prod_300303.jpg",
         "category": "Cozinha",
-        "local_image_path": "/src/assets/products/prod_300303.jpg"
+        "local_image_path": "./src/assets/products/prod_300303.jpg"
     },
     {
         "name": "Caixa Redonda 4L",
@@ -19,9 +19,9 @@ const products = [
         "qtyPallet": "966 (Europ. 120x80cm)",
         "dimensions": "Alt. 15cm x Diam. 23cm",
         "capacity": "4L",
-        "image": "/src/assets/products/prod_220004.jpg",
+        "image": "./src/assets/products/prod_220004.jpg",
         "category": "Cozinha",
-        "local_image_path": "/src/assets/products/prod_220004.jpg"
+        "local_image_path": "./src/assets/products/prod_220004.jpg"
     },
     {
         "name": "Multibox 20L- Transparente",
@@ -31,9 +31,9 @@ const products = [
         "qtyPallet": "420 (Amer. 120x100cm)",
         "dimensions": "Comp. 50cm x Lar. 34cm x Alt. 17cm",
         "capacity": "20L",
-        "image": "/src/assets/products/prod_2005020.jpg",
+        "image": "./src/assets/products/prod_2005020.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_2005020.jpg"
+        "local_image_path": "./src/assets/products/prod_2005020.jpg"
     },
     {
         "name": "Multibox 50L- Transparente",
@@ -43,9 +43,9 @@ const products = [
         "qtyPallet": "60 (Europ. 120x80cm)",
         "dimensions": "Comp. 74cm x Lar. 50cm x Alt. 16cm",
         "capacity": "50L",
-        "image": "/src/assets/products/prod_2005050.jpg",
+        "image": "./src/assets/products/prod_2005050.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_2005050.jpg"
+        "local_image_path": "./src/assets/products/prod_2005050.jpg"
     },
     {
         "name": "Balde c/ Pedal 75L Europa",
@@ -55,9 +55,9 @@ const products = [
         "qtyPallet": "96 (Amer. 120x100cm)",
         "dimensions": "Comp. 46cm x Lar. 36cm x Alt. 63cm",
         "capacity": "75L",
-        "image": "/src/assets/products/prod_902075.jpg",
+        "image": "./src/assets/products/prod_902075.jpg",
         "category": "Baldes",
-        "local_image_path": "/src/assets/products/prod_902075.jpg"
+        "local_image_path": "./src/assets/products/prod_902075.jpg"
     },
     {
         "name": "Cesto p/ Roupa Europa",
@@ -67,9 +67,9 @@ const products = [
         "qtyPallet": "864 (Amer. 120x100cm)",
         "dimensions": "Comp. 59cm x Lar. 44cm x Alt. 28cm",
         "capacity": "35L",
-        "image": "/src/assets/products/prod_2011300.jpg",
+        "image": "./src/assets/products/prod_2011300.jpg",
         "category": "Cestos",
-        "local_image_path": "/src/assets/products/prod_2011300.jpg"
+        "local_image_path": "./src/assets/products/prod_2011300.jpg"
     },
     {
         "name": "Ecoponto 50L",
@@ -79,9 +79,9 @@ const products = [
         "qtyPallet": "120 (Amer. 120x100cm)",
         "dimensions": "Alt. 43cm x Diam. 46cm",
         "capacity": "50L",
-        "image": "/src/assets/products/prod_400450.jpg",
+        "image": "./src/assets/products/prod_400450.jpg",
         "category": "Ecopontos",
-        "local_image_path": "/src/assets/products/prod_400450.jpg"
+        "local_image_path": "./src/assets/products/prod_400450.jpg"
     },
     {
         "name": "Mesa",
@@ -91,9 +91,9 @@ const products = [
         "qtyPallet": "28 (Europ. 120x80cm)",
         "dimensions": "Lar. 70cm x Comp. 70cm x Alt. 75cm",
         "capacity": "",
-        "image": "/src/assets/products/prod_55204.jpg",
+        "image": "./src/assets/products/prod_55204.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_55204.jpg"
+        "local_image_path": "./src/assets/products/prod_55204.jpg"
     },
     {
         "name": "Ecoponto 35L",
@@ -103,9 +103,9 @@ const products = [
         "qtyPallet": "144 (Amer. 120x100cm)",
         "dimensions": "Comp. 36cm x Lar. 26cm x Alt. 45cm",
         "capacity": "35L",
-        "image": "/src/assets/products/prod_400435.jpg",
+        "image": "./src/assets/products/prod_400435.jpg",
         "category": "Ecopontos",
-        "local_image_path": "/src/assets/products/prod_400435.jpg"
+        "local_image_path": "./src/assets/products/prod_400435.jpg"
     },
     {
         "name": "Multibox 40L- Decorado",
@@ -115,9 +115,9 @@ const products = [
         "qtyPallet": "150 (Amer. 120x100cm)",
         "dimensions": "Comp. 60cm x Lar. 40cm x Alt. 27cm",
         "capacity": "40L",
-        "image": "/src/assets/products/prod_300040.jpg",
+        "image": "./src/assets/products/prod_300040.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_300040.jpg"
+        "local_image_path": "./src/assets/products/prod_300040.jpg"
     },
     {
         "name": "Multibox  110L- Decorado",
@@ -127,9 +127,9 @@ const products = [
         "qtyPallet": "60 (Europ. 120x80cm)",
         "dimensions": "Comp. 74cm x Lar. 50cm x Alt. 36cm",
         "capacity": "110L",
-        "image": "/src/assets/products/prod_300110.jpg",
+        "image": "./src/assets/products/prod_300110.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_300110.jpg"
+        "local_image_path": "./src/assets/products/prod_300110.jpg"
     },
     {
         "name": "Multibox 5L- Transparente",
@@ -139,9 +139,9 @@ const products = [
         "qtyPallet": "840 (Europ. 120x80cm)",
         "dimensions": "Comp. 29cm x Lar. 20cm x Alt. 14cm",
         "capacity": "5L",
-        "image": "/src/assets/products/prod_2005005.jpg",
+        "image": "./src/assets/products/prod_2005005.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_2005005.jpg"
+        "local_image_path": "./src/assets/products/prod_2005005.jpg"
     },
     {
         "name": "Roupeiro Europa",
@@ -151,9 +151,9 @@ const products = [
         "qtyPallet": "216 (Amer. 120x100cm)",
         "dimensions": "Comp. 47cm x Lar. 33cm x Alt. 57cm",
         "capacity": "57L",
-        "image": "/src/assets/products/prod_2011303.jpg",
+        "image": "./src/assets/products/prod_2011303.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_2011303.jpg"
+        "local_image_path": "./src/assets/products/prod_2011303.jpg"
     },
     {
         "name": "Estojo Primeiros Socorros",
@@ -163,9 +163,9 @@ const products = [
         "qtyPallet": "840 (Europ. 120x80cm)",
         "dimensions": "Comp. 29cm x Lar. 20cm x Alt. 14cm",
         "capacity": "5L",
-        "image": "/src/assets/products/prod_701500.jpg",
+        "image": "./src/assets/products/prod_701500.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_701500.jpg"
+        "local_image_path": "./src/assets/products/prod_701500.jpg"
     },
     {
         "name": "Escorredor de Talheres Europa",
@@ -175,9 +175,9 @@ const products = [
         "qtyPallet": "3284 (Europ. 120x80cm)",
         "dimensions": "Comp. 13cm x Lar. 13cm x Alt. 16cm",
         "capacity": "1L",
-        "image": "/src/assets/products/prod_600605.jpg",
+        "image": "./src/assets/products/prod_600605.jpg",
         "category": "Cozinha",
-        "local_image_path": "/src/assets/products/prod_600605.jpg"
+        "local_image_path": "./src/assets/products/prod_600605.jpg"
     },
     {
         "name": "Prato Redondo 50",
@@ -187,9 +187,9 @@ const products = [
         "qtyPallet": "4320 (Amer. 120x100cm)",
         "dimensions": "Alt. 6cm x Diam. 40cm",
         "capacity": "4,5L",
-        "image": "/src/assets/products/prod_361602.jpg",
+        "image": "./src/assets/products/prod_361602.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_361602.jpg"
+        "local_image_path": "./src/assets/products/prod_361602.jpg"
     },
     {
         "name": "Alguidar 20L c/ Asas Europa",
@@ -199,9 +199,9 @@ const products = [
         "qtyPallet": "1248 (Amer. 120x100cm)",
         "dimensions": "Alt. 27cm x Diam. 42cm",
         "capacity": "20L",
-        "image": "/src/assets/products/prod_800520.jpg",
+        "image": "./src/assets/products/prod_800520.jpg",
         "category": "Alguidares",
-        "local_image_path": "/src/assets/products/prod_800520.jpg"
+        "local_image_path": "./src/assets/products/prod_800520.jpg"
     },
     {
         "name": "Alguidar Europa 340",
@@ -211,9 +211,9 @@ const products = [
         "qtyPallet": "1200 (Amer. 120x100cm)",
         "dimensions": "Alt. 11cm x Diam. 34cm",
         "capacity": "5,7L",
-        "image": "/src/assets/products/prod_805340.jpg",
+        "image": "./src/assets/products/prod_805340.jpg",
         "category": "Alguidares",
-        "local_image_path": "/src/assets/products/prod_805340.jpg"
+        "local_image_path": "./src/assets/products/prod_805340.jpg"
     },
     {
         "name": "Alguidar 390",
@@ -223,9 +223,9 @@ const products = [
         "qtyPallet": "1200 (Amer. 120x100cm)",
         "dimensions": "Alt. 13cm x Diam. 39cm",
         "capacity": "9L",
-        "image": "/src/assets/products/prod_805390.jpg",
+        "image": "./src/assets/products/prod_805390.jpg",
         "category": "Alguidares",
-        "local_image_path": "/src/assets/products/prod_805390.jpg"
+        "local_image_path": "./src/assets/products/prod_805390.jpg"
     },
     {
         "name": "Cadeira Bimaterial",
@@ -235,9 +235,9 @@ const products = [
         "qtyPallet": "40 (Europ. 120x80cm)",
         "dimensions": "Lar. 54cm x Comp. 54cm x Alt. 81cm",
         "capacity": "",
-        "image": "/src/assets/products/prod_55205.jpg",
+        "image": "./src/assets/products/prod_55205.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_55205.jpg"
+        "local_image_path": "./src/assets/products/prod_55205.jpg"
     },
     {
         "name": "Pá p/ Lixo c/ Tampa",
@@ -247,9 +247,9 @@ const products = [
         "qtyPallet": "576 (Amer. 120x100cm)",
         "dimensions": "Comp. 36cm x Lar. 21cm x Alt. 12cm",
         "capacity": "",
-        "image": "/src/assets/products/prod_70130.jpg",
+        "image": "./src/assets/products/prod_70130.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_70130.jpg"
+        "local_image_path": "./src/assets/products/prod_70130.jpg"
     },
     {
         "name": "Mala Térmica 22L",
@@ -259,9 +259,9 @@ const products = [
         "qtyPallet": "48 (Europ. 120x80cm)",
         "dimensions": "Comp. 36cm x Lar. 27cm x Alt. 38cm",
         "capacity": "22L",
-        "image": "/src/assets/products/prod_200205.jpg",
+        "image": "./src/assets/products/prod_200205.jpg",
         "category": "Malas Térmicas",
-        "local_image_path": "/src/assets/products/prod_200205.jpg"
+        "local_image_path": "./src/assets/products/prod_200205.jpg"
     },
     {
         "name": "Floreira Redonda 250",
@@ -271,9 +271,9 @@ const products = [
         "qtyPallet": "3840 (Amer. 120x100cm)",
         "dimensions": "Alt. 18cm - Diam. 25cm",
         "capacity": "4,5L",
-        "image": "/src/assets/products/prod_66004.jpg",
+        "image": "./src/assets/products/prod_66004.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_66004.jpg"
+        "local_image_path": "./src/assets/products/prod_66004.jpg"
     },
     {
         "name": "Gamela Grande",
@@ -283,9 +283,9 @@ const products = [
         "qtyPallet": "408 (Amer. 120x100cm)",
         "dimensions": "Lar. 65cm x Comp. 47cm x Alt. 17cm",
         "capacity": "29L",
-        "image": "/src/assets/products/prod_20055.jpg",
+        "image": "./src/assets/products/prod_20055.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_20055.jpg"
+        "local_image_path": "./src/assets/products/prod_20055.jpg"
     },
     {
         "name": "Caixa Redonda 2.4L",
@@ -295,9 +295,9 @@ const products = [
         "qtyPallet": "1152 (Europ. 120x80cm)",
         "dimensions": "Alt. 12,5cm x Diam. 19cm",
         "capacity": "2.4L",
-        "image": "/src/assets/products/prod_220005.jpg",
+        "image": "./src/assets/products/prod_220005.jpg",
         "category": "Cozinha",
-        "local_image_path": "/src/assets/products/prod_220005.jpg"
+        "local_image_path": "./src/assets/products/prod_220005.jpg"
     },
     {
         "name": "Balde 12L c/ Bica e Espremedor",
@@ -307,9 +307,9 @@ const products = [
         "qtyPallet": "720 (Amer. 120x100cm)",
         "dimensions": "Alt. 26cm x Diam. 29cm",
         "capacity": "12L",
-        "image": "/src/assets/products/prod_210050.jpg",
+        "image": "./src/assets/products/prod_210050.jpg",
         "category": "Baldes",
-        "local_image_path": "/src/assets/products/prod_210050.jpg"
+        "local_image_path": "./src/assets/products/prod_210050.jpg"
     },
     {
         "name": "Banco p/ Casa de Banho Europa",
@@ -319,9 +319,9 @@ const products = [
         "qtyPallet": "576 (Amer. 120x100cm)",
         "dimensions": "Lar. 25cm x Comp. 25cm x Alt. 45cm",
         "capacity": "",
-        "image": "/src/assets/products/prod_800504.jpg",
+        "image": "./src/assets/products/prod_800504.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_800504.jpg"
+        "local_image_path": "./src/assets/products/prod_800504.jpg"
     },
     {
         "name": "Multibox 30L- Decorado",
@@ -331,9 +331,9 @@ const products = [
         "qtyPallet": "150 (Amer. 120x100cm)",
         "dimensions": "Comp. 60cm x Lar. 40cm x Alt. 20cm",
         "capacity": "30L",
-        "image": "/src/assets/products/prod_300030.jpg",
+        "image": "./src/assets/products/prod_300030.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_300030.jpg"
+        "local_image_path": "./src/assets/products/prod_300030.jpg"
     },
     {
         "name": "Prato Redondo 30",
@@ -343,9 +343,9 @@ const products = [
         "qtyPallet": "7200 (Europ. 120x80cm)",
         "dimensions": "Alt. 4,5cm x Diam. 27cm",
         "capacity": "1,5L",
-        "image": "/src/assets/products/prod_361400.jpg",
+        "image": "./src/assets/products/prod_361400.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_361400.jpg"
+        "local_image_path": "./src/assets/products/prod_361400.jpg"
     },
     {
         "name": "Caixa Quadrada 1.3L",
@@ -355,9 +355,9 @@ const products = [
         "qtyPallet": "2304 (Europ. 120x80cm)",
         "dimensions": "Comp. 14cm x Lar. 14cm x Alt. 11cm",
         "capacity": "1.3L",
-        "image": "/src/assets/products/prod_220008.jpg",
+        "image": "./src/assets/products/prod_220008.jpg",
         "category": "Cozinha",
-        "local_image_path": "/src/assets/products/prod_220008.jpg"
+        "local_image_path": "./src/assets/products/prod_220008.jpg"
     },
     {
         "name": "Alguidar Europa 30L",
@@ -367,9 +367,9 @@ const products = [
         "qtyPallet": "510 (Amer. 120x100cm)",
         "dimensions": "Alt. 26cm x Diam. 49cm",
         "capacity": "30L",
-        "image": "/src/assets/products/prod_350100.jpg",
+        "image": "./src/assets/products/prod_350100.jpg",
         "category": "Alguidares",
-        "local_image_path": "/src/assets/products/prod_350100.jpg"
+        "local_image_path": "./src/assets/products/prod_350100.jpg"
     },
     {
         "name": "Alguidar n. 7",
@@ -379,9 +379,9 @@ const products = [
         "qtyPallet": "1200 (Amer. 120x100cm)",
         "dimensions": "Alt. 21cm x Diam. 53cm",
         "capacity": "25L",
-        "image": "/src/assets/products/prod_10430.jpg",
+        "image": "./src/assets/products/prod_10430.jpg",
         "category": "Alguidares",
-        "local_image_path": "/src/assets/products/prod_10430.jpg"
+        "local_image_path": "./src/assets/products/prod_10430.jpg"
     },
     {
         "name": "Alguidar Europa 12L",
@@ -391,9 +391,9 @@ const products = [
         "qtyPallet": "972 (Amer. 120x100cm)",
         "dimensions": "Alt. 20cm x Diam. 35cm",
         "capacity": "12L",
-        "image": "/src/assets/products/prod_350080.jpg",
+        "image": "./src/assets/products/prod_350080.jpg",
         "category": "Alguidares",
-        "local_image_path": "/src/assets/products/prod_350080.jpg"
+        "local_image_path": "./src/assets/products/prod_350080.jpg"
     },
     {
         "name": "Escorredor Loiça Europa",
@@ -403,9 +403,9 @@ const products = [
         "qtyPallet": "432 (Amer. 120x100cm)",
         "dimensions": "Comp. 55cm x Lar. 39cm x Alt. 13cm",
         "capacity": "10L",
-        "image": "/src/assets/products/prod_600230.jpg",
+        "image": "./src/assets/products/prod_600230.jpg",
         "category": "Cozinha",
-        "local_image_path": "/src/assets/products/prod_600230.jpg"
+        "local_image_path": "./src/assets/products/prod_600230.jpg"
     },
     {
         "name": "Multibox 70L - PP Random",
@@ -415,9 +415,9 @@ const products = [
         "qtyPallet": "60 (Europ. 120x80cm)",
         "dimensions": "Comp. 74cm x Lar. 50cm x Alt. 27cm",
         "capacity": "70L",
-        "image": "/src/assets/products/prod_500570.jpg",
+        "image": "./src/assets/products/prod_500570.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_500570.jpg"
+        "local_image_path": "./src/assets/products/prod_500570.jpg"
     },
     {
         "name": "Tampa de Selha 50L",
@@ -427,9 +427,9 @@ const products = [
         "qtyPallet": "N/A",
         "dimensions": "Alt. 5cm x Diam. 48cm",
         "capacity": "N/A",
-        "image": "/src/assets/products/prod_600201.jpg",
+        "image": "./src/assets/products/prod_600201.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_600201.jpg"
+        "local_image_path": "./src/assets/products/prod_600201.jpg"
     },
     {
         "name": "Mala Térmica 07L",
@@ -439,9 +439,9 @@ const products = [
         "qtyPallet": "180 (Amer. 120x100cm)",
         "dimensions": "Comp. 27cm x Lar. 20cm x Alt. 23cm",
         "capacity": "7L",
-        "image": "/src/assets/products/prod_200203.jpg",
+        "image": "./src/assets/products/prod_200203.jpg",
         "category": "Malas Térmicas",
-        "local_image_path": "/src/assets/products/prod_200203.jpg"
+        "local_image_path": "./src/assets/products/prod_200203.jpg"
     },
     {
         "name": "Balde c/ Pedal 75L",
@@ -451,9 +451,9 @@ const products = [
         "qtyPallet": "96 (Amer. 120x100cm)",
         "dimensions": "Comp. 46cm x Lar. 36cm x Alt. 63cm",
         "capacity": "75L",
-        "image": "/src/assets/products/prod_901075.jpg",
+        "image": "./src/assets/products/prod_901075.jpg",
         "category": "Baldes",
-        "local_image_path": "/src/assets/products/prod_901075.jpg"
+        "local_image_path": "./src/assets/products/prod_901075.jpg"
     },
     {
         "name": "Multibox 26L- Transparente",
@@ -463,9 +463,9 @@ const products = [
         "qtyPallet": "420 (Amer. 120x100cm)",
         "dimensions": "Comp. 49cm x Lar. 34cm x Alt. 22cm",
         "capacity": "26L",
-        "image": "/src/assets/products/prod_2005026.jpg",
+        "image": "./src/assets/products/prod_2005026.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_2005026.jpg"
+        "local_image_path": "./src/assets/products/prod_2005026.jpg"
     },
     {
         "name": "Ecoponto 12L",
@@ -475,9 +475,9 @@ const products = [
         "qtyPallet": "720 (Amer. 120x100cm)",
         "dimensions": "Alt. 26cm x Diam. 30cm",
         "capacity": "12L",
-        "image": "/src/assets/products/prod_400412.jpg",
+        "image": "./src/assets/products/prod_400412.jpg",
         "category": "Ecopontos",
-        "local_image_path": "/src/assets/products/prod_400412.jpg"
+        "local_image_path": "./src/assets/products/prod_400412.jpg"
     },
     {
         "name": "Módulo 3 Gavetas Decorado",
@@ -487,9 +487,9 @@ const products = [
         "qtyPallet": "31 (Amer. 120x100cm)",
         "dimensions": "Comp. 33cm x Lar. 41cm x Alt. 68cm",
         "capacity": "48L",
-        "image": "/src/assets/products/prod_551003.jpg",
+        "image": "./src/assets/products/prod_551003.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_551003.jpg"
+        "local_image_path": "./src/assets/products/prod_551003.jpg"
     },
     {
         "name": "Multibox 30L- Transparente",
@@ -499,9 +499,9 @@ const products = [
         "qtyPallet": "150 (Amer. 120x100cm)",
         "dimensions": "Comp. 60cm x Lar. 40cm x Alt. 20cm",
         "capacity": "30L",
-        "image": "/src/assets/products/prod_2005030.jpg",
+        "image": "./src/assets/products/prod_2005030.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_2005030.jpg"
+        "local_image_path": "./src/assets/products/prod_2005030.jpg"
     },
     {
         "name": "Balde 16L c/ Tampa Europa",
@@ -511,9 +511,9 @@ const products = [
         "qtyPallet": "664 (Amer. 120x100cm)",
         "dimensions": "Alt. 30cm x Diam. 33cm",
         "capacity": "16L",
-        "image": "/src/assets/products/prod_500516.jpg",
+        "image": "./src/assets/products/prod_500516.jpg",
         "category": "Baldes",
-        "local_image_path": "/src/assets/products/prod_500516.jpg"
+        "local_image_path": "./src/assets/products/prod_500516.jpg"
     },
     {
         "name": "Cestos p/ Molas Europa",
@@ -523,9 +523,9 @@ const products = [
         "qtyPallet": "2496 (Europ. 120x80cm)",
         "dimensions": "Comp. 24cm x Lar. 18cm x Alt. 14cm",
         "capacity": "3,5L",
-        "image": "/src/assets/products/prod_600603.jpg",
+        "image": "./src/assets/products/prod_600603.jpg",
         "category": "Cestos",
-        "local_image_path": "/src/assets/products/prod_600603.jpg"
+        "local_image_path": "./src/assets/products/prod_600603.jpg"
     },
     {
         "name": "Multibox 14L- Decorado",
@@ -535,9 +535,9 @@ const products = [
         "qtyPallet": "456 (Europ. 120x80cm)",
         "dimensions": "Comp. 40cm x Lar. 28cm x Alt. 19cm",
         "capacity": "14L",
-        "image": "/src/assets/products/prod_300014.jpg",
+        "image": "./src/assets/products/prod_300014.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_300014.jpg"
+        "local_image_path": "./src/assets/products/prod_300014.jpg"
     },
     {
         "name": "Multibox 26L - PP Random",
@@ -547,9 +547,9 @@ const products = [
         "qtyPallet": "420 (Amer. 120x100cm)",
         "dimensions": "Comp. 49cm x Lar. 34cm x Alt. 22cm",
         "capacity": "26L",
-        "image": "/src/assets/products/prod_500526.jpg",
+        "image": "./src/assets/products/prod_500526.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_500526.jpg"
+        "local_image_path": "./src/assets/products/prod_500526.jpg"
     },
     {
         "name": "Caixa Quadrada 0.9L",
@@ -559,9 +559,9 @@ const products = [
         "qtyPallet": "2496 (Europ. 120x80cm)",
         "dimensions": "Comp. 14cm x Lar. 14cm x Alt. 7,5cm",
         "capacity": "0.9L",
-        "image": "/src/assets/products/prod_221067.jpg",
+        "image": "./src/assets/products/prod_221067.jpg",
         "category": "Cozinha",
-        "local_image_path": "/src/assets/products/prod_221067.jpg"
+        "local_image_path": "./src/assets/products/prod_221067.jpg"
     },
     {
         "name": "Caixa Redonda 2.8L",
@@ -571,9 +571,9 @@ const products = [
         "qtyPallet": "960 (Europ. 120x80cm)",
         "dimensions": "Alt. 9,5cm x Diam. 23cm",
         "capacity": "2.8L",
-        "image": "/src/assets/products/prod_220012.jpg",
+        "image": "./src/assets/products/prod_220012.jpg",
         "category": "Cozinha",
-        "local_image_path": "/src/assets/products/prod_220012.jpg"
+        "local_image_path": "./src/assets/products/prod_220012.jpg"
     },
     {
         "name": "Caixa Rectangular 2.2L",
@@ -583,9 +583,9 @@ const products = [
         "qtyPallet": "1152 (Europ. 120x80cm)",
         "dimensions": "Comp. 30cm x Lar. 20cm x Alt. 6,5cm",
         "capacity": "2.2L",
-        "image": "/src/assets/products/prod_220010.jpg",
+        "image": "./src/assets/products/prod_220010.jpg",
         "category": "Cozinha",
-        "local_image_path": "/src/assets/products/prod_220010.jpg"
+        "local_image_path": "./src/assets/products/prod_220010.jpg"
     },
     {
         "name": "Tabuleiro Europa",
@@ -595,9 +595,9 @@ const products = [
         "qtyPallet": "3264 (Europ. 120x80cm)",
         "dimensions": "Comp. 42cm x Lar. 28cm x Alt. 4cm",
         "capacity": "2L",
-        "image": "/src/assets/products/prod_600606.jpg",
+        "image": "./src/assets/products/prod_600606.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_600606.jpg"
+        "local_image_path": "./src/assets/products/prod_600606.jpg"
     },
     {
         "name": "Floreira Redonda 220",
@@ -607,9 +607,9 @@ const products = [
         "qtyPallet": "5040 (Amer. 120x100cm)",
         "dimensions": "Alt. 15cm - Diam. 22cm",
         "capacity": "3L",
-        "image": "/src/assets/products/prod_66003.jpg",
+        "image": "./src/assets/products/prod_66003.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_66003.jpg"
+        "local_image_path": "./src/assets/products/prod_66003.jpg"
     },
     {
         "name": "Ecoponto 16L",
@@ -619,9 +619,9 @@ const products = [
         "qtyPallet": "684 (Amer. 120x100cm)",
         "dimensions": "Alt. 30cm x Diam. 33cm",
         "capacity": "16L",
-        "image": "/src/assets/products/prod_400416.jpg",
+        "image": "./src/assets/products/prod_400416.jpg",
         "category": "Ecopontos",
-        "local_image_path": "/src/assets/products/prod_400416.jpg"
+        "local_image_path": "./src/assets/products/prod_400416.jpg"
     },
     {
         "name": "Alguidar Quadrado c/ Asas 27L Europa",
@@ -631,9 +631,9 @@ const products = [
         "qtyPallet": "576 (Amer. 120x100cm)",
         "dimensions": "Alt. 26cm x Diam. 42cm",
         "capacity": "27L",
-        "image": "/src/assets/products/prod_110027.jpg",
+        "image": "./src/assets/products/prod_110027.jpg",
         "category": "Alguidares",
-        "local_image_path": "/src/assets/products/prod_110027.jpg"
+        "local_image_path": "./src/assets/products/prod_110027.jpg"
     },
     {
         "name": "Mala Térmica 35L",
@@ -643,9 +643,9 @@ const products = [
         "qtyPallet": "40 (Amer. 120x100cm)",
         "dimensions": "Comp. 43cm x Lar. 30cm x Alt. 48cm",
         "capacity": "35L",
-        "image": "/src/assets/products/prod_200235.jpg",
+        "image": "./src/assets/products/prod_200235.jpg",
         "category": "Malas Térmicas",
-        "local_image_path": "/src/assets/products/prod_200235.jpg"
+        "local_image_path": "./src/assets/products/prod_200235.jpg"
     },
     {
         "name": "Floreira Redonda 390",
@@ -655,9 +655,9 @@ const products = [
         "qtyPallet": "1056 (Amer. 120x100cm)",
         "dimensions": "Alt. 31cm - Diam. 39cm",
         "capacity": "22L",
-        "image": "/src/assets/products/prod_66008.jpg",
+        "image": "./src/assets/products/prod_66008.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_66008.jpg"
+        "local_image_path": "./src/assets/products/prod_66008.jpg"
     },
     {
         "name": "Multibox 110L- Transparente",
@@ -667,9 +667,9 @@ const products = [
         "qtyPallet": "60 (Europ. 120x80cm)",
         "dimensions": "Comp. 74cm x Lar. 50cm x Alt. 36cm",
         "capacity": "110L",
-        "image": "/src/assets/products/prod_2005110.jpg",
+        "image": "./src/assets/products/prod_2005110.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_2005110.jpg"
+        "local_image_path": "./src/assets/products/prod_2005110.jpg"
     },
     {
         "name": "Bacio p/ Criança Europa",
@@ -679,9 +679,9 @@ const products = [
         "qtyPallet": "144 (Europ. 120x80cm)",
         "dimensions": "Comp. 40cm x Lar. 29cm x Alt. 43cm",
         "capacity": "",
-        "image": "/src/assets/products/prod_560031.jpg",
+        "image": "./src/assets/products/prod_560031.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_560031.jpg"
+        "local_image_path": "./src/assets/products/prod_560031.jpg"
     },
     {
         "name": "Balde 17L",
@@ -691,9 +691,9 @@ const products = [
         "qtyPallet": "960 (Amer. 120x100cm)",
         "dimensions": "Alt. 27cm - Diam. 33cm",
         "capacity": "17L",
-        "image": "/src/assets/products/prod_20130.jpg",
+        "image": "./src/assets/products/prod_20130.jpg",
         "category": "Baldes",
-        "local_image_path": "/src/assets/products/prod_20130.jpg"
+        "local_image_path": "./src/assets/products/prod_20130.jpg"
     },
     {
         "name": "Floreira Rectangular Pequena",
@@ -703,9 +703,9 @@ const products = [
         "qtyPallet": "1248 (Amer. 120x100cm)",
         "dimensions": "Comp. 49cm x Lar. 19cm x Alt. 15cm",
         "capacity": "9L",
-        "image": "/src/assets/products/prod_67050.jpg",
+        "image": "./src/assets/products/prod_67050.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_67050.jpg"
+        "local_image_path": "./src/assets/products/prod_67050.jpg"
     },
     {
         "name": "Multibox 150L - Transparente",
@@ -715,9 +715,9 @@ const products = [
         "qtyPallet": "54 (Europ. 120x80cm)",
         "dimensions": "Comp. 75cm x Lar. 50cm x Alt. 56cm",
         "capacity": "150 L",
-        "image": "/src/assets/products/prod_2005150.jpg",
+        "image": "./src/assets/products/prod_2005150.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_2005150.jpg"
+        "local_image_path": "./src/assets/products/prod_2005150.jpg"
     },
     {
         "name": "Tapete",
@@ -727,9 +727,9 @@ const products = [
         "qtyPallet": "800 (Europ. 120x80cm)",
         "dimensions": "Comp. 58cm x Lar. 38cm",
         "capacity": "",
-        "image": "/src/assets/products/prod_600401.jpg",
+        "image": "./src/assets/products/prod_600401.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_600401.jpg"
+        "local_image_path": "./src/assets/products/prod_600401.jpg"
     },
     {
         "name": "Caixa Rectangular 4.5L",
@@ -739,9 +739,9 @@ const products = [
         "qtyPallet": "768 (Europ. 120x80cm)",
         "dimensions": "Comp. 30cm x Lar. 20cm x Alt. 12,5cm",
         "capacity": "4.5L",
-        "image": "/src/assets/products/prod_220002.jpg",
+        "image": "./src/assets/products/prod_220002.jpg",
         "category": "Cozinha",
-        "local_image_path": "/src/assets/products/prod_220002.jpg"
+        "local_image_path": "./src/assets/products/prod_220002.jpg"
     },
     {
         "name": "Alguidar Europa 20L",
@@ -751,9 +751,9 @@ const products = [
         "qtyPallet": "648 (Amer. 120x100cm)",
         "dimensions": "Alt. 23cm x Diam. 40cm",
         "capacity": "20L",
-        "image": "/src/assets/products/prod_350090.jpg",
+        "image": "./src/assets/products/prod_350090.jpg",
         "category": "Alguidares",
-        "local_image_path": "/src/assets/products/prod_350090.jpg"
+        "local_image_path": "./src/assets/products/prod_350090.jpg"
     },
     {
         "name": "Caixa Rectangular 0.8L",
@@ -763,9 +763,9 @@ const products = [
         "qtyPallet": "2304 (Europ. 120x80cm)",
         "dimensions": "Comp. 19,5cm x Lar. 15cm x Alt. 5,5cm",
         "capacity": "0.8L",
-        "image": "/src/assets/products/prod_220009.jpg",
+        "image": "./src/assets/products/prod_220009.jpg",
         "category": "Cozinha",
-        "local_image_path": "/src/assets/products/prod_220009.jpg"
+        "local_image_path": "./src/assets/products/prod_220009.jpg"
     },
     {
         "name": "Banheira p/ Bebé Europa",
@@ -775,9 +775,9 @@ const products = [
         "qtyPallet": "450 (Europ. 120x80cm)",
         "dimensions": "Comp. 86cm x Lar. 44cm x Alt. 28cm",
         "capacity": "37L",
-        "image": "/src/assets/products/prod_600602.jpg",
+        "image": "./src/assets/products/prod_600602.jpg",
         "category": "Bebé/Infantil",
-        "local_image_path": "/src/assets/products/prod_600602.jpg"
+        "local_image_path": "./src/assets/products/prod_600602.jpg"
     },
     {
         "name": "Caixa Rectangular 1.7L",
@@ -787,9 +787,9 @@ const products = [
         "qtyPallet": "1538 (Europ. 120x80cm)",
         "dimensions": "Comp. 19,5cm x Lar. 15cm x Alt. 10cm",
         "capacity": "1.7L",
-        "image": "/src/assets/products/prod_220001.jpg",
+        "image": "./src/assets/products/prod_220001.jpg",
         "category": "Cozinha",
-        "local_image_path": "/src/assets/products/prod_220001.jpg"
+        "local_image_path": "./src/assets/products/prod_220001.jpg"
     },
     {
         "name": "Módulo 4 Gavetas Europa",
@@ -799,9 +799,9 @@ const products = [
         "qtyPallet": "24 (Amer. 120x100cm)",
         "dimensions": "Comp. 33cm x Lar. 41cm x Alt. 87cm",
         "capacity": "64L",
-        "image": "/src/assets/products/prod_800104.jpg",
+        "image": "./src/assets/products/prod_800104.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_800104.jpg"
+        "local_image_path": "./src/assets/products/prod_800104.jpg"
     },
     {
         "name": "Prato Redondo 40",
@@ -811,9 +811,9 @@ const products = [
         "qtyPallet": "6466 (Amer. 120x100cm)",
         "dimensions": "Alt. 5,5cm x Diam. 34,5cm",
         "capacity": "3L",
-        "image": "/src/assets/products/prod_361401.jpg",
+        "image": "./src/assets/products/prod_361401.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_361401.jpg"
+        "local_image_path": "./src/assets/products/prod_361401.jpg"
     },
     {
         "name": "Tabuleiro p/ Talher Europa",
@@ -823,9 +823,9 @@ const products = [
         "qtyPallet": "1944 (Europ. 120x80cm)",
         "dimensions": "Comp. 33cm x Lar. 26cm x Alt. 5cm",
         "capacity": "2,5L",
-        "image": "/src/assets/products/prod_600601.jpg",
+        "image": "./src/assets/products/prod_600601.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_600601.jpg"
+        "local_image_path": "./src/assets/products/prod_600601.jpg"
     },
     {
         "name": "Multibox 40L- Transparente",
@@ -835,9 +835,9 @@ const products = [
         "qtyPallet": "150 (Amer. 120x100cm)",
         "dimensions": "Comp. 60cm x Lar. 40cm x Alt. 27cm",
         "capacity": "40L",
-        "image": "/src/assets/products/prod_2005040.jpg",
+        "image": "./src/assets/products/prod_2005040.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_2005040.jpg"
+        "local_image_path": "./src/assets/products/prod_2005040.jpg"
     },
     {
         "name": "Cesto p/ Compras Europa",
@@ -847,9 +847,9 @@ const products = [
         "qtyPallet": "702 (Amer. 120x100cm)",
         "dimensions": "Comp. 39cm x Lar. 30cm x Alt. 23cm",
         "capacity": "18L",
-        "image": "/src/assets/products/prod_600604.jpg",
+        "image": "./src/assets/products/prod_600604.jpg",
         "category": "Cestos",
-        "local_image_path": "/src/assets/products/prod_600604.jpg"
+        "local_image_path": "./src/assets/products/prod_600604.jpg"
     },
     {
         "name": "Garrafeira",
@@ -859,9 +859,9 @@ const products = [
         "qtyPallet": "360 (Amer. 120x100cm)",
         "dimensions": "Comp. 62cm x Lar. 25cm x Alt. 24cm",
         "capacity": "",
-        "image": "/src/assets/products/prod_68003.jpg",
+        "image": "./src/assets/products/prod_68003.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_68003.jpg"
+        "local_image_path": "./src/assets/products/prod_68003.jpg"
     },
     {
         "name": "Mala Térmica 30L",
@@ -871,9 +871,9 @@ const products = [
         "qtyPallet": "40 (Amer. 120x100cm)",
         "dimensions": "Comp. 43cm x Lar. 30cm x Alt. 42cm",
         "capacity": "30L",
-        "image": "/src/assets/products/prod_200230.jpg",
+        "image": "./src/assets/products/prod_200230.jpg",
         "category": "Malas Térmicas",
-        "local_image_path": "/src/assets/products/prod_200230.jpg"
+        "local_image_path": "./src/assets/products/prod_200230.jpg"
     },
     {
         "name": "Espremedor p/ Balde 14L",
@@ -883,9 +883,9 @@ const products = [
         "qtyPallet": "",
         "dimensions": "Lar. 30 cm x Alt. 12 cm",
         "capacity": "",
-        "image": "/src/assets/products/prod_70204.jpg",
+        "image": "./src/assets/products/prod_70204.jpg",
         "category": "Baldes",
-        "local_image_path": "/src/assets/products/prod_70204.jpg"
+        "local_image_path": "./src/assets/products/prod_70204.jpg"
     },
     {
         "name": "Multibox 110L - PP Random",
@@ -895,9 +895,9 @@ const products = [
         "qtyPallet": "60 (Europ. 120x80cm)",
         "dimensions": "Comp. 74cm x Lar. 50cm x Alt. 36cm",
         "capacity": "110L",
-        "image": "/src/assets/products/prod_500110.jpg",
+        "image": "./src/assets/products/prod_500110.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_500110.jpg"
+        "local_image_path": "./src/assets/products/prod_500110.jpg"
     },
     {
         "name": "Multibox 20L- Decorado",
@@ -907,9 +907,9 @@ const products = [
         "qtyPallet": "420 (Amer. 120x100cm)",
         "dimensions": "Comp. 50cm x Lar. 34cm x Alt. 17cm",
         "capacity": "20L",
-        "image": "/src/assets/products/prod_300020.jpg",
+        "image": "./src/assets/products/prod_300020.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_300020.jpg"
+        "local_image_path": "./src/assets/products/prod_300020.jpg"
     },
     {
         "name": "Multibox 50L- Decorado",
@@ -919,9 +919,9 @@ const products = [
         "qtyPallet": "60 (Europ. 120x80cm)",
         "dimensions": "Comp. 74cm x Lar. 50cm x Alt. 16cm",
         "capacity": "50L",
-        "image": "/src/assets/products/prod_300050.jpg",
+        "image": "./src/assets/products/prod_300050.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_300050.jpg"
+        "local_image_path": "./src/assets/products/prod_300050.jpg"
     },
     {
         "name": "Caixa Quadrada 4.2L",
@@ -931,9 +931,9 @@ const products = [
         "qtyPallet": "1440 (Europ. 120x80cm)",
         "dimensions": "Comp. 21cm x Lar. 21cm x Alt. 16cm",
         "capacity": "4.2L",
-        "image": "/src/assets/products/prod_220011.jpg",
+        "image": "./src/assets/products/prod_220011.jpg",
         "category": "Cozinha",
-        "local_image_path": "/src/assets/products/prod_220011.jpg"
+        "local_image_path": "./src/assets/products/prod_220011.jpg"
     },
     {
         "name": "Balde 12L c/ Tampa Europa",
@@ -943,9 +943,9 @@ const products = [
         "qtyPallet": "720 (Amer. 120x100cm)",
         "dimensions": "Alt. 26cm x Diam. 30cm",
         "capacity": "12L",
-        "image": "/src/assets/products/prod_500212.jpg",
+        "image": "./src/assets/products/prod_500212.jpg",
         "category": "Baldes",
-        "local_image_path": "/src/assets/products/prod_500212.jpg"
+        "local_image_path": "./src/assets/products/prod_500212.jpg"
     },
     {
         "name": "Gamela Pequena",
@@ -955,9 +955,9 @@ const products = [
         "qtyPallet": "540 (Amer. 120x100cm)",
         "dimensions": "Lar. 49cm x Comp. 36cm x Alt. 11cm",
         "capacity": "11L",
-        "image": "/src/assets/products/prod_200555.jpg",
+        "image": "./src/assets/products/prod_200555.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_200555.jpg"
+        "local_image_path": "./src/assets/products/prod_200555.jpg"
     },
     {
         "name": "Caixa Redonda 0.8L",
@@ -967,9 +967,9 @@ const products = [
         "qtyPallet": "2016 (Europ. 120x80cm)",
         "dimensions": "Alt. 7,5cm x Diam. 16cm",
         "capacity": "0.8L",
-        "image": "/src/assets/products/prod_220014.jpg",
+        "image": "./src/assets/products/prod_220014.jpg",
         "category": "Cozinha",
-        "local_image_path": "/src/assets/products/prod_220014.jpg"
+        "local_image_path": "./src/assets/products/prod_220014.jpg"
     },
     {
         "name": "Caixa Rectangular 0.5L",
@@ -979,9 +979,9 @@ const products = [
         "qtyPallet": "3936 (Europ. 120x80cm)",
         "dimensions": "Comp. 14cm x Lar. 9cm x Alt. 8cm",
         "capacity": "0.5L",
-        "image": "/src/assets/products/prod_220003.jpg",
+        "image": "./src/assets/products/prod_220003.jpg",
         "category": "Cozinha",
-        "local_image_path": "/src/assets/products/prod_220003.jpg"
+        "local_image_path": "./src/assets/products/prod_220003.jpg"
     },
     {
         "name": "Mala Ferramentas 1300",
@@ -991,9 +991,9 @@ const products = [
         "qtyPallet": "288 (Amer. 120x100cm)",
         "dimensions": "Comp. 32cm x Lar. 18cm x Alt. 14cm",
         "capacity": "3,5L",
-        "image": "/src/assets/products/prod_400300.jpg",
+        "image": "./src/assets/products/prod_400300.jpg",
         "category": "Malas Térmicas",
-        "local_image_path": "/src/assets/products/prod_400300.jpg"
+        "local_image_path": "./src/assets/products/prod_400300.jpg"
     },
     {
         "name": "Multibox 70L- Transparente",
@@ -1003,9 +1003,9 @@ const products = [
         "qtyPallet": "60 (Europ. 120x80cm)",
         "dimensions": "Comp. 74cm x Lar. 50cm x Alt. 27cm",
         "capacity": "70L",
-        "image": "/src/assets/products/prod_2005070.jpg",
+        "image": "./src/assets/products/prod_2005070.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_2005070.jpg"
+        "local_image_path": "./src/assets/products/prod_2005070.jpg"
     },
     {
         "name": "Floreira Redonda 280",
@@ -1015,9 +1015,9 @@ const products = [
         "qtyPallet": "2736 (Amer. 120x100cm)",
         "dimensions": "Alt. 21cm - Diam. 28cm",
         "capacity": "7L",
-        "image": "/src/assets/products/prod_66005.jpg",
+        "image": "./src/assets/products/prod_66005.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_66005.jpg"
+        "local_image_path": "./src/assets/products/prod_66005.jpg"
     },
     {
         "name": "Multibox 40L - PP Random",
@@ -1027,9 +1027,9 @@ const products = [
         "qtyPallet": "174 (Amer. 120x100cm)",
         "dimensions": "Comp. 60cm x Lar. 40cm x Alt. 27cm",
         "capacity": "40L",
-        "image": "/src/assets/products/prod_500540.jpg",
+        "image": "./src/assets/products/prod_500540.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_500540.jpg"
+        "local_image_path": "./src/assets/products/prod_500540.jpg"
     },
     {
         "name": "ALGUIDAR 260 EUROPA",
@@ -1039,9 +1039,9 @@ const products = [
         "qtyPallet": "1200 (Amer. 120x100cm)",
         "dimensions": "Alt. 9cm x Diam. 26cm",
         "capacity": "2,7L",
-        "image": "/src/assets/products/prod_805260.jpg",
+        "image": "./src/assets/products/prod_805260.jpg",
         "category": "Alguidares",
-        "local_image_path": "/src/assets/products/prod_805260.jpg"
+        "local_image_path": "./src/assets/products/prod_805260.jpg"
     },
     {
         "name": "Alguidar Europa 300",
@@ -1051,9 +1051,9 @@ const products = [
         "qtyPallet": "1200 (Amer. 120x100cm)",
         "dimensions": "Alt. 9,5cm x Diam. 30cm",
         "capacity": "4L",
-        "image": "/src/assets/products/prod_805300.jpg",
+        "image": "./src/assets/products/prod_805300.jpg",
         "category": "Alguidares",
-        "local_image_path": "/src/assets/products/prod_805300.jpg"
+        "local_image_path": "./src/assets/products/prod_805300.jpg"
     },
     {
         "name": "Multibox 26L- Decorado",
@@ -1063,9 +1063,9 @@ const products = [
         "qtyPallet": "420 (Amer. 120x100cm)",
         "dimensions": "Comp. 49cm x Lar. 34cm x Alt. 22cm",
         "capacity": "26L",
-        "image": "/src/assets/products/prod_300026.jpg",
+        "image": "./src/assets/products/prod_300026.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_300026.jpg"
+        "local_image_path": "./src/assets/products/prod_300026.jpg"
     },
     {
         "name": "Mala Ferramentas 1500",
@@ -1075,9 +1075,9 @@ const products = [
         "qtyPallet": "72 (Amer. 120x100cm)",
         "dimensions": "Comp. 48cm x Lar. 24cm x Alt. 25cm",
         "capacity": "16L",
-        "image": "/src/assets/products/prod_400500.jpg",
+        "image": "./src/assets/products/prod_400500.jpg",
         "category": "Malas Térmicas",
-        "local_image_path": "/src/assets/products/prod_400500.jpg"
+        "local_image_path": "./src/assets/products/prod_400500.jpg"
     },
     {
         "name": "Multibox 70L- Decorado",
@@ -1087,9 +1087,9 @@ const products = [
         "qtyPallet": "60 (Europ. 120x80cm)",
         "dimensions": "Comp. 74cm x Lar. 50cm x Alt. 27cm",
         "capacity": "70L",
-        "image": "/src/assets/products/prod_300070.jpg",
+        "image": "./src/assets/products/prod_300070.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_300070.jpg"
+        "local_image_path": "./src/assets/products/prod_300070.jpg"
     },
     {
         "name": "Selha 50L",
@@ -1099,9 +1099,9 @@ const products = [
         "qtyPallet": "150 (Amer. 120x100cm)",
         "dimensions": "Alt. 43cm x Diam. 47cm",
         "capacity": "50L",
-        "image": "/src/assets/products/prod_20210.jpg",
+        "image": "./src/assets/products/prod_20210.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_20210.jpg"
+        "local_image_path": "./src/assets/products/prod_20210.jpg"
     },
     {
         "name": "Floreira Redonda 306",
@@ -1111,9 +1111,9 @@ const products = [
         "qtyPallet": "2016 (Amer. 120x100cm)",
         "dimensions": "Alt. 25cm - Diam. 31cm",
         "capacity": "10L",
-        "image": "/src/assets/products/prod_66006.jpg",
+        "image": "./src/assets/products/prod_66006.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_66006.jpg"
+        "local_image_path": "./src/assets/products/prod_66006.jpg"
     },
     {
         "name": "Mala Térmica 13L",
@@ -1123,9 +1123,9 @@ const products = [
         "qtyPallet": "100 (Amer. 120x100cm)",
         "dimensions": "Comp. 28cm x Lar. 22cm x Alt. 32cm",
         "capacity": "13L",
-        "image": "/src/assets/products/prod_200207.jpg",
+        "image": "./src/assets/products/prod_200207.jpg",
         "category": "Malas Térmicas",
-        "local_image_path": "/src/assets/products/prod_200207.jpg"
+        "local_image_path": "./src/assets/products/prod_200207.jpg"
     },
     {
         "name": "Balde 15L",
@@ -1135,9 +1135,9 @@ const products = [
         "qtyPallet": "1300 (Amer. 120x100cm)",
         "dimensions": "Alt. 26cm x Diam. 29cm",
         "capacity": "15L",
-        "image": "/src/assets/products/prod_10430.jpg",
+        "image": "./src/assets/products/prod_10430.jpg",
         "category": "Baldes",
-        "local_image_path": "/src/assets/products/prod_10430.jpg"
+        "local_image_path": "./src/assets/products/prod_10430.jpg"
     },
     {
         "name": "Multibox 50L - PP Random",
@@ -1147,9 +1147,9 @@ const products = [
         "qtyPallet": "60 (Amer. 120x100cm)",
         "dimensions": "Comp. 74cm x Lar. 50cm x Alt. 16cm",
         "capacity": "50L",
-        "image": "/src/assets/products/prod_500550.jpg",
+        "image": "./src/assets/products/prod_500550.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_500550.jpg"
+        "local_image_path": "./src/assets/products/prod_500550.jpg"
     },
     {
         "name": "Selha 38L",
@@ -1159,9 +1159,9 @@ const products = [
         "qtyPallet": "325 (Amer. 120x100cm)",
         "dimensions": "Alt. 32cm x Diam. 49cm",
         "capacity": "38L",
-        "image": "/src/assets/products/prod_20200.jpg",
+        "image": "./src/assets/products/prod_20200.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_20200.jpg"
+        "local_image_path": "./src/assets/products/prod_20200.jpg"
     },
     {
         "name": "Mala Ferramentas 1400",
@@ -1171,9 +1171,9 @@ const products = [
         "qtyPallet": "144 (Europ. 120x80cm)",
         "dimensions": "Comp. 40cm x Lar. 19cm x Alt. 19cm",
         "capacity": "7L",
-        "image": "/src/assets/products/prod_400400.jpg",
+        "image": "./src/assets/products/prod_400400.jpg",
         "category": "Malas Térmicas",
-        "local_image_path": "/src/assets/products/prod_400400.jpg"
+        "local_image_path": "./src/assets/products/prod_400400.jpg"
     },
     {
         "name": "Balde c/ Pedal 35L Europa",
@@ -1183,9 +1183,9 @@ const products = [
         "qtyPallet": "144 (Amer. 120x100cm)",
         "dimensions": "Comp. 36cm x Lar. 26cm x Alt. 45cm",
         "capacity": "35L",
-        "image": "/src/assets/products/prod_210235.jpg",
+        "image": "./src/assets/products/prod_210235.jpg",
         "category": "Baldes",
-        "local_image_path": "/src/assets/products/prod_210235.jpg"
+        "local_image_path": "./src/assets/products/prod_210235.jpg"
     },
     {
         "name": "Caixa Redonda 1.3L",
@@ -1195,9 +1195,9 @@ const products = [
         "qtyPallet": "1440 (Europ. 120x80cm)",
         "dimensions": "Alt. 8,5cm x Diam. 19cm",
         "capacity": "1.3L",
-        "image": "/src/assets/products/prod_220013.jpg",
+        "image": "./src/assets/products/prod_220013.jpg",
         "category": "Cozinha",
-        "local_image_path": "/src/assets/products/prod_220013.jpg"
+        "local_image_path": "./src/assets/products/prod_220013.jpg"
     },
     {
         "name": "Espremedor p/ Balde 12L",
@@ -1207,9 +1207,9 @@ const products = [
         "qtyPallet": "",
         "dimensions": "Lar. 25 cm x Alt. 11 cm",
         "capacity": "",
-        "image": "/src/assets/products/prod_70205.jpg",
+        "image": "./src/assets/products/prod_70205.jpg",
         "category": "Baldes",
-        "local_image_path": "/src/assets/products/prod_70205.jpg"
+        "local_image_path": "./src/assets/products/prod_70205.jpg"
     },
     {
         "name": "Alguidar Europa 7L",
@@ -1219,9 +1219,9 @@ const products = [
         "qtyPallet": "1440 (Amer. 120x100cm)",
         "dimensions": "Alt. 16cm x Diam. 29cm",
         "capacity": "7L",
-        "image": "/src/assets/products/prod_350070.jpg",
+        "image": "./src/assets/products/prod_350070.jpg",
         "category": "Alguidares",
-        "local_image_path": "/src/assets/products/prod_350070.jpg"
+        "local_image_path": "./src/assets/products/prod_350070.jpg"
     },
     {
         "name": "Ecoponto 75L",
@@ -1231,9 +1231,9 @@ const products = [
         "qtyPallet": "96 (Amer. 120x100cm)",
         "dimensions": "Comp. 46cm x Lar. 36cm x Alt. 63cm",
         "capacity": "75L",
-        "image": "/src/assets/products/prod_900075.jpg",
+        "image": "./src/assets/products/prod_900075.jpg",
         "category": "Ecopontos",
-        "local_image_path": "/src/assets/products/prod_900075.jpg"
+        "local_image_path": "./src/assets/products/prod_900075.jpg"
     },
     {
         "name": "Módulo 4 Gavetas Decorado",
@@ -1243,9 +1243,9 @@ const products = [
         "qtyPallet": "24 (Amer. 120x100cm)",
         "dimensions": "Comp. 33cm x Lar. 41cm x Alt. 87cm",
         "capacity": "64L",
-        "image": "/src/assets/products/prod_551004.jpg",
+        "image": "./src/assets/products/prod_551004.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_551004.jpg"
+        "local_image_path": "./src/assets/products/prod_551004.jpg"
     },
     {
         "name": "Floreira Redonda 480",
@@ -1255,9 +1255,9 @@ const products = [
         "qtyPallet": "792 (Amer. 120x100cm)",
         "dimensions": "Alt. 38cm - Diam. 48cm",
         "capacity": "35L",
-        "image": "/src/assets/products/prod_760401.jpg",
+        "image": "./src/assets/products/prod_760401.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_760401.jpg"
+        "local_image_path": "./src/assets/products/prod_760401.jpg"
     },
     {
         "name": "Caixa Quadrada 2.6L",
@@ -1267,9 +1267,9 @@ const products = [
         "qtyPallet": "1728 (Europ. 120x80cm)",
         "dimensions": "Comp. 21cm x Lar. 21cm x Alt. 9,5cm",
         "capacity": "2.6L",
-        "image": "/src/assets/products/prod_221066.jpg",
+        "image": "./src/assets/products/prod_221066.jpg",
         "category": "Cozinha",
-        "local_image_path": "/src/assets/products/prod_221066.jpg"
+        "local_image_path": "./src/assets/products/prod_221066.jpg"
     },
     {
         "name": "Multibox 30L - PP Random",
@@ -1279,9 +1279,9 @@ const products = [
         "qtyPallet": "174 (Amer. 120x100cm)",
         "dimensions": "Comp. 60cm x Lar. 40cm x Alt. 20cm",
         "capacity": "40L",
-        "image": "/src/assets/products/prod_500530.jpg",
+        "image": "./src/assets/products/prod_500530.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_500530.jpg"
+        "local_image_path": "./src/assets/products/prod_500530.jpg"
     },
     {
         "name": "Balde 10L",
@@ -1291,9 +1291,9 @@ const products = [
         "qtyPallet": "1536 (Amer. 120x100cm)",
         "dimensions": "Alt. 25cm x Diam. 28cm",
         "capacity": "10L",
-        "image": "/src/assets/products/prod_20060.jpg",
+        "image": "./src/assets/products/prod_20060.jpg",
         "category": "Baldes",
-        "local_image_path": "/src/assets/products/prod_20060.jpg"
+        "local_image_path": "./src/assets/products/prod_20060.jpg"
     },
     {
         "name": "Módulo 3 Gavetas Europa",
@@ -1303,9 +1303,9 @@ const products = [
         "qtyPallet": "31 (Amer. 120x100cm)",
         "dimensions": "Comp. 33cm x Lar. 41cm x Alt. 68cm",
         "capacity": "48L",
-        "image": "/src/assets/products/prod_800103.jpg",
+        "image": "./src/assets/products/prod_800103.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_800103.jpg"
+        "local_image_path": "./src/assets/products/prod_800103.jpg"
     },
     {
         "name": "Balde 12L c/ Bica",
@@ -1315,9 +1315,9 @@ const products = [
         "qtyPallet": "864 (Amer. 120x100cm)",
         "dimensions": "Alt. 26cm x Diam. 29cm",
         "capacity": "12L",
-        "image": "/src/assets/products/prod_20100.jpg",
+        "image": "./src/assets/products/prod_20100.jpg",
         "category": "Baldes",
-        "local_image_path": "/src/assets/products/prod_20100.jpg"
+        "local_image_path": "./src/assets/products/prod_20100.jpg"
     },
     {
         "name": "Prato Redondo 25",
@@ -1327,9 +1327,9 @@ const products = [
         "qtyPallet": "11700 (Europ. 120x80cm)",
         "dimensions": "Alt. 3,5cm x Diam. 23cm",
         "capacity": "0,75L",
-        "image": "/src/assets/products/prod_361000.jpg",
+        "image": "./src/assets/products/prod_361000.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_361000.jpg"
+        "local_image_path": "./src/assets/products/prod_361000.jpg"
     },
     {
         "name": "Alguidar n.º 8",
@@ -1339,9 +1339,9 @@ const products = [
         "qtyPallet": "1200 (Amer. 120x100cm)",
         "dimensions": "Alt. 21cm x Diam. 58cm",
         "capacity": "30L",
-        "image": "/src/assets/products/prod_10440.jpg",
+        "image": "./src/assets/products/prod_10440.jpg",
         "category": "Alguidares",
-        "local_image_path": "/src/assets/products/prod_10440.jpg"
+        "local_image_path": "./src/assets/products/prod_10440.jpg"
     },
     {
         "name": "Alguidar n.º 5 Canelado",
@@ -1351,9 +1351,9 @@ const products = [
         "qtyPallet": "550 (Amer. 120x100cm)",
         "dimensions": "Alt. 23cm x Diam. 53cm",
         "capacity": "31L",
-        "image": "/src/assets/products/prod_10450.jpg",
+        "image": "./src/assets/products/prod_10450.jpg",
         "category": "Alguidares",
-        "local_image_path": "/src/assets/products/prod_10450.jpg"
+        "local_image_path": "./src/assets/products/prod_10450.jpg"
     },
     {
         "name": "Multibox 150L - PP Random",
@@ -1363,9 +1363,9 @@ const products = [
         "qtyPallet": "54 (Europ. 120x80cm)",
         "dimensions": "Comp. 75cm x Lar. 50cm x Alt. 56cm",
         "capacity": "150L",
-        "image": "/src/assets/products/prod_500150.jpg",
+        "image": "./src/assets/products/prod_500150.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_500150.jpg"
+        "local_image_path": "./src/assets/products/prod_500150.jpg"
     },
     {
         "name": "Mala Ferramentas 1600",
@@ -1375,9 +1375,9 @@ const products = [
         "qtyPallet": "64 (Amer. 120x100cm)",
         "dimensions": "Comp. 63cm x Lar. 31cm x Alt. 30cm",
         "capacity": "30L",
-        "image": "/src/assets/products/prod_400600.jpg",
+        "image": "./src/assets/products/prod_400600.jpg",
         "category": "Malas Térmicas",
-        "local_image_path": "/src/assets/products/prod_400600.jpg"
+        "local_image_path": "./src/assets/products/prod_400600.jpg"
     },
     {
         "name": "Multibox 20L - PP Random",
@@ -1387,9 +1387,9 @@ const products = [
         "qtyPallet": "420 (Amer. 120x100cm)",
         "dimensions": "Comp. 50cm x Lar. 34cm x Alt. 17cm",
         "capacity": "20L",
-        "image": "/src/assets/products/prod_500520.jpg",
+        "image": "./src/assets/products/prod_500520.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_500520.jpg"
+        "local_image_path": "./src/assets/products/prod_500520.jpg"
     },
     {
         "name": "Expositor Europa",
@@ -1399,9 +1399,9 @@ const products = [
         "qtyPallet": "504 (Amer. 120x100cm)",
         "dimensions": "Comp. 51cm x Lar. 40cm x Alt. 23cm",
         "capacity": "25L",
-        "image": "/src/assets/products/prod_180002.jpg",
+        "image": "./src/assets/products/prod_180002.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_180002.jpg"
+        "local_image_path": "./src/assets/products/prod_180002.jpg"
     },
     {
         "name": "Multibox 14L- Transparente",
@@ -1411,9 +1411,9 @@ const products = [
         "qtyPallet": "456 (Europ. 120x80cm)",
         "dimensions": "Comp. 40cm x Lar. 28cm x Alt. 19cm",
         "capacity": "14L",
-        "image": "/src/assets/products/prod_2005014.jpg",
+        "image": "./src/assets/products/prod_2005014.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_2005014.jpg"
+        "local_image_path": "./src/assets/products/prod_2005014.jpg"
     },
     {
         "name": "Caixa Redonda 1.4L",
@@ -1423,9 +1423,9 @@ const products = [
         "qtyPallet": "2304 (Europ. 120x80cm)",
         "dimensions": "Alt. 11cm x Diam. 16cm",
         "capacity": "1.4L",
-        "image": "/src/assets/products/prod_220006.jpg",
+        "image": "./src/assets/products/prod_220006.jpg",
         "category": "Cozinha",
-        "local_image_path": "/src/assets/products/prod_220006.jpg"
+        "local_image_path": "./src/assets/products/prod_220006.jpg"
     },
     {
         "name": "Prato Redondo 35",
@@ -1435,9 +1435,9 @@ const products = [
         "qtyPallet": "6768 (Amer. 120x100cm)",
         "dimensions": "Alt. 5cm x Diam. 31cm",
         "capacity": "2,5L",
-        "image": "/src/assets/products/prod_361402.jpg",
+        "image": "./src/assets/products/prod_361402.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_361402.jpg"
+        "local_image_path": "./src/assets/products/prod_361402.jpg"
     },
     {
         "name": "Mala Térmica 18L",
@@ -1447,9 +1447,9 @@ const products = [
         "qtyPallet": "64 (Europ. 120x80cm)",
         "dimensions": "Comp. 36cm x Lar. 27cm x Alt. 30cm",
         "capacity": "18L",
-        "image": "/src/assets/products/prod_200204.jpg",
+        "image": "./src/assets/products/prod_200204.jpg",
         "category": "Malas Térmicas",
-        "local_image_path": "/src/assets/products/prod_200204.jpg"
+        "local_image_path": "./src/assets/products/prod_200204.jpg"
     },
     {
         "name": "Alguidar 12L c/ Asas Europa",
@@ -1459,9 +1459,9 @@ const products = [
         "qtyPallet": "1620 (Amer. 120x100cm)",
         "dimensions": "Alt. 23cm x Diam. 36cm",
         "capacity": "12L",
-        "image": "/src/assets/products/prod_800512.jpg",
+        "image": "./src/assets/products/prod_800512.jpg",
         "category": "Alguidares",
-        "local_image_path": "/src/assets/products/prod_800512.jpg"
+        "local_image_path": "./src/assets/products/prod_800512.jpg"
     },
     {
         "name": "Caixa Quadrada 2.5L",
@@ -1471,9 +1471,9 @@ const products = [
         "qtyPallet": "1488 (Europ. 120x80cm)",
         "dimensions": "Comp. 17,5cm x Lar. 17,5cm x Alt. 13cm",
         "capacity": "2.5L",
-        "image": "/src/assets/products/prod_220007.jpg",
+        "image": "./src/assets/products/prod_220007.jpg",
         "category": "Cozinha",
-        "local_image_path": "/src/assets/products/prod_220007.jpg"
+        "local_image_path": "./src/assets/products/prod_220007.jpg"
     },
     {
         "name": "Açafate Europa",
@@ -1483,9 +1483,9 @@ const products = [
         "qtyPallet": "780 (Amer. 120x100cm)",
         "dimensions": "Comp. 65cm x Lar. 44cm x Alt. 20cm",
         "capacity": "31L",
-        "image": "/src/assets/products/prod_2011301.jpg",
+        "image": "./src/assets/products/prod_2011301.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_2011301.jpg"
+        "local_image_path": "./src/assets/products/prod_2011301.jpg"
     },
     {
         "name": "Floreira Rectangular Média",
@@ -1495,9 +1495,9 @@ const products = [
         "qtyPallet": "1152 (Amer. 120x100cm)",
         "dimensions": "Comp. 67cm x Lar. 19cm x Alt. 17cm",
         "capacity": "15L",
-        "image": "/src/assets/products/prod_67051.jpg",
+        "image": "./src/assets/products/prod_67051.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_67051.jpg"
+        "local_image_path": "./src/assets/products/prod_67051.jpg"
     },
     {
         "name": "Mala Térmica 16L",
@@ -1507,9 +1507,9 @@ const products = [
         "qtyPallet": "84 (Amer. 120x100cm)",
         "dimensions": "Comp. 28cm x Lar. 22cm x Alt. 38cm",
         "capacity": "16L",
-        "image": "/src/assets/products/prod_200202.jpg",
+        "image": "./src/assets/products/prod_200202.jpg",
         "category": "Malas Térmicas",
-        "local_image_path": "/src/assets/products/prod_200202.jpg"
+        "local_image_path": "./src/assets/products/prod_200202.jpg"
     },
     {
         "name": "Floreira Redonda 340",
@@ -1519,9 +1519,9 @@ const products = [
         "qtyPallet": "1404 (Amer. 120x100cm)",
         "dimensions": "Alt. 28cm - Diam. 34cm",
         "capacity": "13L",
-        "image": "/src/assets/products/prod_66007.jpg",
+        "image": "./src/assets/products/prod_66007.jpg",
         "category": "Diversos",
-        "local_image_path": "/src/assets/products/prod_66007.jpg"
+        "local_image_path": "./src/assets/products/prod_66007.jpg"
     },
     {
         "name": "Multibox 5L- Decorado",
@@ -1531,9 +1531,9 @@ const products = [
         "qtyPallet": "840 (Europ. 120x80cm)",
         "dimensions": "Comp. 29cm x Lar. 20cm x Alt. 14cm",
         "capacity": "5L",
-        "image": "/src/assets/products/prod_300005.jpg",
+        "image": "./src/assets/products/prod_300005.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_300005.jpg"
+        "local_image_path": "./src/assets/products/prod_300005.jpg"
     },
     {
         "name": "Caixa Quadrada 1.4L",
@@ -1543,9 +1543,9 @@ const products = [
         "qtyPallet": "1680 (Europ. 120x80cm)",
         "dimensions": "Comp. 17,5cm x Lar. 17,5cm x Alt. 9cm",
         "capacity": "1.4L",
-        "image": "/src/assets/products/prod_221068.jpg",
+        "image": "./src/assets/products/prod_221068.jpg",
         "category": "Cozinha",
-        "local_image_path": "/src/assets/products/prod_221068.jpg"
+        "local_image_path": "./src/assets/products/prod_221068.jpg"
     },
     {
         "name": "Multibox 14L - PP Random",
@@ -1555,9 +1555,9 @@ const products = [
         "qtyPallet": "456 (Amer. 120x100cm)",
         "dimensions": "Comp. 40cm x Lar. 28cm x Alt. 19cm",
         "capacity": "14L",
-        "image": "/src/assets/products/prod_500514.jpg",
+        "image": "./src/assets/products/prod_500514.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_500514.jpg"
+        "local_image_path": "./src/assets/products/prod_500514.jpg"
     },
     {
         "name": "Mala Térmica 10L",
@@ -1567,9 +1567,9 @@ const products = [
         "qtyPallet": "126 (Amer. 120x100cm)",
         "dimensions": "Comp. 28cm x Lar. 22cm x Alt. 27cm",
         "capacity": "10L",
-        "image": "/src/assets/products/prod_200206.jpg",
+        "image": "./src/assets/products/prod_200206.jpg",
         "category": "Malas Térmicas",
-        "local_image_path": "/src/assets/products/prod_200206.jpg"
+        "local_image_path": "./src/assets/products/prod_200206.jpg"
     },
     {
         "name": "Balde Limpeza 14L c/ Espremedor Europa",
@@ -1579,9 +1579,9 @@ const products = [
         "qtyPallet": "648 (Amer. 120x100cm)",
         "dimensions": "Lar. 36cm x Comp. 25cm x Alt. 28cm",
         "capacity": "14L",
-        "image": "/src/assets/products/prod_2011302.jpg",
+        "image": "./src/assets/products/prod_2011302.jpg",
         "category": "Baldes",
-        "local_image_path": "/src/assets/products/prod_2011302.jpg"
+        "local_image_path": "./src/assets/products/prod_2011302.jpg"
     },
     {
         "name": "Multibox 5L - PP Random",
@@ -1591,9 +1591,9 @@ const products = [
         "qtyPallet": "840 (Europ. 120x80cm)",
         "dimensions": "Comp. 29cm x Lar. 20cm x Alt. 14cm",
         "capacity": "5L",
-        "image": "/src/assets/products/prod_500505.jpg",
+        "image": "./src/assets/products/prod_500505.jpg",
         "category": "Arrumação",
-        "local_image_path": "/src/assets/products/prod_500505.jpg"
+        "local_image_path": "./src/assets/products/prod_500505.jpg"
     }
 ];
 
