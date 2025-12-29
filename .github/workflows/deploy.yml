@@ -27,9 +27,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: 'npm'
+          # cache: 'npm' # Disabled to prevent failure if lockfile is missing/syncing
       - name: Install dependencies
-        run: npm ci
+        run: npm install # uses npm install instead of ci to auto-generate lockfile if needed
       - name: Build
         run: npm run build
       - name: Setup Pages
