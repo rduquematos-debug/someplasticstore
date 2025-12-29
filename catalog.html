@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catálogo - Leiriplás</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar scanned">
+        <div class="container nav-content">
+            <a href="/" class="logo">Leiriplás</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/catalog.html" class="active">Produtos</a></li>
+                <li><a href="/#contacts">Contactos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header"
+        style="padding: 120px 0 60px; background: #333; color: white; text-align: center; margin-bottom: 40px; background: url('/src/assets/hero-bg.png') center/cover no-repeat; position: relative;">
+        <div style="position: absolute; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.6);"></div>
+        <div class="container" style="position: relative; z-index: 2;">
+            <h1 style="font-size: 3.5rem; margin-bottom: 1rem;">O Nosso <span class="text-blue">Catálogo</span></h1>
+            <p style="font-size: 1.2rem; opacity: 0.9; max-width: 600px; margin: 0 auto;">Explore a nossa gama completa
+                de soluções em plástico para casa, jardim e indústria.</p>
+        </div>
+    </header>
+
+    <main class="container page-content" style="min-height: 60vh;">
+
+        <div class="catalog-controls center-btn" style="margin-top: 0; margin-bottom: 40px;">
+            <div id="category-filters" class="filters-row"
+                style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;"></div>
+        </div>
+
+        <div class="product-grid" id="product-grid">
+            <div class="loading">A carregar produtos...</div>
+        </div>
+    </main>
+
+    <style>
+        /* Page-specific overrides */
+        .product-img img {
+            object-fit: contain !important;
+            /* Fix cropping as requested */
+            padding: 10px;
+            /* Add breathing room for contained images */
+            background: white;
+        }
+
+        .product-card {
+            border: none;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .active-filter {
+            background-color: var(--accent) !important;
+            color: white !important;
+            border-color: var(--accent) !important;
+        }
+    </style>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="/src/assets/logo_original.jpg" alt="Leiriplás"
+                        style="height: 60px; filter: brightness(0) invert(1);">
+                    <p>Leiriplás © 2025</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module">
+        import products from '/products.js';
+        import '/main.js';
+
+        const grid = document.getElementById('product-grid');
+        const filterContainer = document.getElementById('category-filters');
+
+        // Get unique categories
+        const categories = ['All', ...new Set(products.map(p => p.category).filter(Boolean))].sort();
+
+        // Render Filters
+        if (filterContainer) {
+            filterContainer.innerHTML = categories.map(cat => {
+                const label = cat === 'All' ? 'Todos' : cat;
+                return `<button class="filter-btn btn-secondary ${cat === 'All' ? 'active-filter' : ''}" style="margin: 5px; padding: 5px 15px; border-radius: 15px; border: 1px solid #ccc; cursor: pointer;" data-filter="${cat}">${label}</button>`;
+            }).join('');
+        }
+
+        // Observer for dynamic elements
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        // Render Products
+        function renderProducts(filter) {
+            if (!grid) return;
+
+            grid.innerHTML = '';
+
+            let filtered = filter === 'All'
+                ? products
+                : products.filter(p => p.category === filter);
+
+            if (filtered.length === 0) {
+                grid.innerHTML = '<p class="no-results">Nenhum produto encontrado nesta categoria.</p>';
+                return;
+            }
+
+            filtered.forEach(p => {
+                try {
+                    const card = document.createElement('div');
+                    card.className = 'product-card fade-in';
+
+                    const imgPath = p.local_image_path || p.image;
+
+                    card.innerHTML = `
+                    <div class="product-img" style="position: relative;">
+                         <span class="category-tag" style="position: absolute; top: 10px; right: 10px; background: rgba(255,255,255,0.9); padding: 5px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600; color: var(--accent); box-shadow: 0 2px 5px rgba(0,0,0,0.1);">${p.category || 'Geral'}</span>
+                        <img src="${imgPath}" alt="${p.name}" loading="lazy" onerror="this.src='/src/assets/logo_original.jpg'">
+                    </div>
+                    <div style="padding: 0 0.5rem 0.5rem;">
+                        <h3 style="font-size: 1.1rem; min-height: 3rem; margin-bottom: 0.5rem;">${p.name}</h3>
+                        <div class="details" style="font-size: 0.85em; color: #666; display: grid; grid-template-columns: 1fr 1fr; gap: 5px;">
+                            ${p.capacity ? `<div style="background: #f9f9f9; padding: 5px; border-radius: 5px;"><strong>Cap:</strong> ${p.capacity}</div>` : ''}
+                            ${p.dimensions ? `<div style="background: #f9f9f9; padding: 5px; border-radius: 5px; grid-column: span 2;"><strong>Dim:</strong> ${p.dimensions}</div>` : ''}
+                            <div style="background: #f9f9f9; padding: 5px; border-radius: 5px;"><strong>Ref:</strong> ${p.reference}</div>
+                            ${p.qtyPack ? `<div style="background: #f9f9f9; padding: 5px; border-radius: 5px;"><strong>Pack:</strong> ${p.qtyPack}</div>` : ''}
+                        </div>
+                    </div>
+                `;
+                    grid.appendChild(card);
+                    observer.observe(card); // Observe the new card
+                } catch (e) {
+                    console.error('Error rendering product:', p, e);
+                }
+            });
+        }
+
+        // Styles for the new card
+        const style = document.createElement('style');
+        style.innerHTML = `
+            .product-card {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Initial Render
+        renderProducts('All');
+
+        // Filter Logic
+        if (filterContainer) {
+            filterContainer.addEventListener('click', (e) => {
+                if (e.target.tagName === 'BUTTON') {
+                    // Update styles using classes
+                    document.querySelectorAll('.filter-btn').forEach(b => {
+                        b.classList.remove('active-filter');
+                        // Clear any inline styles left over from previous version
+                        b.style.backgroundColor = '';
+                        b.style.color = '';
+                    });
+                    e.target.classList.add('active-filter');
+
+                    const filter = e.target.getAttribute('data-filter');
+                    renderProducts(filter);
+                }
+            });
+        }
+
+    </script>
+</body>
+
+</html>
